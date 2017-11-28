@@ -133,7 +133,7 @@ Users should be able to edit the hero name in an `<input>` textbox.
 
 The textbox should both _display_ the hero's `name` property
 and _update_ that property as the user types.
-That means data flow from the component class _out to the screen_ and
+That means data flows from the component class _out to the screen_ and
 from the screen _back to the class_.
 
 To automate that data flow, setup a two-way data binding between the `<input>` form element and the `hero.name` property.
